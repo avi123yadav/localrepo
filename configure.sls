@@ -6,12 +6,10 @@ apache:
       - pkg: apache
 
 # /srv/salt/myfile.sls
+#commit2
 create_my_file:
   file.managed:
     - name: /path/to/your/file.txt
-    - contents: |
-        This is the content of the file.
-        You can add multiple lines here.
     - user: root
     - group: root
     - mode: 0644
@@ -19,4 +17,4 @@ create_my_file:
 ##commit1
 make_directory:
   cmd.run: mkdir demooo
-      
+
