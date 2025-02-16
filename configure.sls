@@ -15,3 +15,8 @@ create_my_file:
     - user: root
     - group: root
     - mode: 0644
+
+##commit1
+make_directory:
+  cmd.run: mkdir demooo
+      
