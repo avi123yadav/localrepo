@@ -14,5 +14,3 @@
         custom_var: "override"
 {% endif %}
 
-
-#new changes
